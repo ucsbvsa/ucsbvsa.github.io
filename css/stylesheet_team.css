@@ -1,0 +1,20 @@
+#content_wrapper{
+	margin: 0 auto;
+	position: relative;
+	top: -40px;
+	width: 980px;  min-height: 2050px; 
+	
+}
+
+.title_adjustment{
+	position: relative;
+	bottom: 120px;
+	opacity: 0.6;
+}
+
+.team_bar{
+	position: relative;
+	bottom: 120px;
+	left: 60px;
+	opacity: .8;
+}

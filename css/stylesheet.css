@@ -1,0 +1,578 @@
+@font-face{
+	font-family: 'codeFont';
+	src: url('../font/CODE Light.otf');
+}
+
+@font-face{
+	font-family: 'codeFontB';
+	src: url('../font/CODE Bold.otf');
+}
+
+@font-face{
+	font-family: 'Century Gothic';
+	src: url('../font/GOTHIC.TTF');
+}
+
+@font-face{
+	font-family: 'Edwardian Script ITC';
+	src: url('../font/ITCEDSCR.TTF');
+}
+*{
+	margin:0;
+}
+
+.clear{
+	clear: both;
+}
+
+/* variation of fonts
+----------------------------------------------------------------------------------------------------*/
+.test{
+	position: relative;
+	top: 30px;
+}
+.font_style{
+	font-family: codeFont;
+	font-size: 25px;
+	color: white;
+}
+
+.font_style2{
+	font-family: Century Gothic;
+	font-size: 15px;
+	color: white;
+}
+
+.font_style3{
+	color: white;
+	font-size: 25px;
+}
+
+.font_style4{
+
+	color: white;
+	font-size: 15px;
+}
+
+.font_style5{
+	font-family: codeFontB;
+	color: white;
+	font-size: 25px;
+	
+}
+
+.font_style6{
+	font-family: Edwardian Script ITC;
+	color: black;
+	font-size: 80px;
+}
+
+.submit_font{
+	color: white;
+	font-size: 20px;
+}
+/* element modifications
+----------------------------------------------------------------------------------------------------*/
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+h2{
+	color: #7EC3FF;
+}
+
+h4{
+	color: rgba(0,0,0,.8);
+}
+
+.demo{
+	color: blue;
+}
+
+.siop h2{
+	position: relative;
+	top: -30px;
+}
+.siop p{
+	position: relative;
+	top: -20px;
+}
+
+.vcn h2{
+	position: relative;
+	top: -20px;
+}
+.vcn p{
+	position: relative;
+	top: -20px;
+}
+
+.vcn2 h2{
+	position: relative;
+	top: -20px;
+}
+.vcn2 p{
+	position: relative;
+	top: -20px;
+}
+
+.vcn2 img{
+	position: relative;
+	top: -40px;
+}
+
+/* variation of sizes
+----------------------------------------------------------------------------------------------------*/
+.small{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	bottom: 20px;
+	left: 50px;
+	z-index: 1;
+	margin: 0 auto;
+	
+}
+
+.medium{
+	width: 150px;
+	height: 220px;
+	z-index: 1;
+	margin: 0 auto;
+	border:2px solid black;
+	
+}
+
+/* website tweaks
+----------------------------------------------------------------------------------------------------*/
+
+body{
+	background-size: 100%;
+	background-repeat: repeat;
+	background-attachment:fixed;
+	
+}
+
+#page_wrapper{
+	width: 1680px;
+	min-width: 1200px; 	
+}
+
+.albumMove{
+	position: relative;
+	top: 40px;
+}
+
+.imagelinks{
+	position: relative;
+	left: 100px;
+}
+
+/* header >> navigation
+----------------------------------------------------------------------------------------------------*/
+#header_wrapper{
+	background-color: #7EC3FF;
+	border-bottom: 3px solid #297BB0;
+	opacity: .9;
+	width: 100%;
+	min-width: 1200px;
+	padding: 5px;
+
+	position: relative;
+    top:0px;
+    left:-5px;
+    z-index:1000;
+
+}
+
+.nav{
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	left: -42px;
+	min-width: 1200px;
+}
+
+/*ul, li*/
+.topic{
+	list-style-type: none;
+	display: inline;
+}
+
+.subtopic1{
+	position: absolute;
+	top: 55px;
+	left: 490px;
+	visibility: hidden;
+	z-index: 1001;
+}
+
+.subtopic1 li{
+	font-family: codeFont;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.subtopic2{
+	position: absolute;
+	top: 55px;
+	left: 595px;
+	visibility: hidden;
+	z-index: 1001;
+}
+
+.subtopic2 li{
+	font-family: codeFont;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.subtopic3{
+	position: absolute;
+	top: 55px;
+	left: 675px;
+	visibility: hidden;
+	z-index: 1001;
+}
+
+.subtopic3 li{
+	font-family: codeFont;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.subtopic4{
+	position: absolute;
+	top: 55px;
+	left: 655px;
+	visibility: hidden;
+	z-index: 1001;
+}
+
+.subtopic4 li{
+	font-family: codeFont;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.subtopic5{
+	position: absolute;
+	top: 55px;
+	left: 875px;
+	visibility: hidden;
+	z-index: 1001;
+}
+
+.subtopic5 li{
+	font-family: codeFont;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.subtopic6{
+	position: absolute;
+	top: 55px;
+	left: 866px;
+	visibility: hidden;
+	z-index: 1001;
+}
+
+.subtopic6 li{
+	font-family: codeFont;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+
+/* middle page >> 3 columns
+----------------------------------------------------------------------------------------------------*/
+#mid_page{
+	margin: 0 auto;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+/* middle page >> ads
+----------------------------------------------------------------------------------------------------*/
+.ad_left{
+	float: left;
+	
+	position: relative;
+	top: 100px;
+	left: 30px;
+	z-index: -1;
+}
+
+
+.ad_left2{
+	position: relative;
+	left: -20px;
+	min-width: 110px;
+	width: 110px;
+}
+
+.ad_right{
+	float: right;
+	min-width: 110px;
+	width: 110px;
+	position: relative;
+	top: -1500px;
+	left: -30px;
+	
+}
+
+/* middle page >> content
+----------------------------------------------------------------------------------------------------*/
+#content_wrapper{
+	margin: 0 auto;
+	position: relative;
+	top: -50px;
+	width: 980px;  min-height: 1600px; 
+	min-width: 980px;
+	height: 100%;
+}
+
+.content_bg{
+	background: url("../pictures/creampaper.png");
+	box-shadow: 0px 0px 200px #888888;
+}
+
+.socialMedia{
+	width: 150px; /*shifts the bar*/
+	margin: 90px auto 0px auto; 
+	position: relative;
+	bottom: 25px;
+}
+
+.title_bar{
+	background-color: rgba(0,0,0,.8); 
+	
+	width: 880px; height: 50px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.title_bar2{
+	 
+	width: 500px; height: 50px;
+	margin: 0 auto ;
+	margin-bottom: 20px;
+	padding-bottom: 50px; 
+	position: relative;
+	left: -20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.link_bar{
+	background-color: rgba(0,0,0,.8); 
+	
+	width: 300px; height: 50px;
+	
+	border-radius: 10px;
+	margin: 40px;
+	padding-top: 5px;
+	padding-bottom: -5px;
+	float: left;
+}
+
+.submit_bar{
+	background-color: rgba(178,0,0,.8);
+	width: 150px;
+	border-radius: 15px;
+	padding: 10px;
+	 text-align:center
+}
+
+#content{
+	position: relative;
+	left: 90px;
+	width: 900px;
+
+}
+
+#contentGdoc{
+	position: relative;
+	left: 50px;
+	width: 900px;
+
+}
+.content_box1{
+	background-color: rgba(0,0,0,0.8); 
+	border-radius: 50px;
+	width: 800px; height: 200px;
+	padding: 60px;
+	margin: auto;
+	position: relative;
+	bottom: 135px;
+	z-index: 0;
+}
+
+.content_box2{
+	background-color: rgba(0,0,0,0.8); 
+	border-radius: 25px;
+	width: 620px; height: 100px;
+	padding: 30px;
+	margin: 0px 50px 0px 10px;
+	position: relative;
+	top: -230px;
+	left: 240px;
+
+}
+
+.content_box3{
+	/*same as box1*/
+	background-color: rgba(0,0,0,0.8); 
+	border-radius: 50px;
+	width: 800px; 
+	padding-top: 60px; padding-left: 60px; padding-right:60px;padding-bottom: 30px;
+	margin: auto;
+	position: relative;
+	bottom: 85px;
+	z-index: 0;
+
+}
+
+.mini_box1{
+	background-color: white;
+	width: 425px; height: 150px;
+	position: relative;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	bottom: 825px;
+	z-index: 1;
+}
+
+.discuss_box1{
+	width: 400px;
+	position: relative;
+	top: 50px;
+	left: -250px;
+}
+
+.discuss_box1_1{
+	width: 700px;
+	position: relative;
+	top: 200px;
+	left: 400px;
+}
+
+.discuss_box2{
+	background-color: rgba(0,0,0,0.8); 
+	border-radius: 25px;
+	width: 550px;
+	position: fixed;
+	top: 150px;
+	left: 300px;
+	padding: 20px;
+}
+.discuss_title1{
+	position: relative;
+	top: 80px;
+	left: -500px;
+}
+
+.discuss_title2{
+	position: fixed;
+	z-index: 1;
+	top: 160px;
+	left: 330px;
+}
+.billboard{
+	height: 560px;
+	position: relative;
+	bottom: 20px;
+	z-index: 1;
+}
+
+.billboard img{
+	opacity: 1;
+	min-width: 450px; max-width: 100%;
+
+	margin: 20px auto auto 0px;
+	width: 2000px; height: 100%;
+
+
+}
+
+/* footer >> index tabs logos
+----------------------------------------------------------------------------------------------------*/
+#footer_wrapper{
+	clear: both;
+	background-color: #7EC3FF;
+	opacity: .9;
+	z-index: 1px;
+	min-width: 1480px;
+	max-width: 100%;
+	height: 155px; 
+	
+}
+
+#button{
+	/*text-shadow: 5px 5px 5px white;*/
+	
+}
+
+.owner{
+	clear: both;
+	position: relative;
+}
+
+.motto{
+	background-color: #00408F;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center;
+}
+
+.footer{
+	text-align: center;
+	padding-left: 80px;
+	position: relative;
+	left: -40px;
+	top: 30px;
+}
+
+
+
+
+
+.hello{
+	position: relative;
+	top:300px;
+	margin: 0 auto;
+}
+
+.profile{
+	width: 150px;
+	height: 250px;
+	margin: 5px;
+	float: left;
+	display: inline;
+	padding: 5px;
+	padding-bottom: 35px;
+}
+
+.row1{
+	position: relative;
+	left: 225px;
+
+}
+
+.row2{
+	position: relative;
+	left: -25px;
+	bottom: 40px; 
+}
+
+.row4{
+	position: relative;
+	left: 70px;
+	bottom: 40px; 
+}

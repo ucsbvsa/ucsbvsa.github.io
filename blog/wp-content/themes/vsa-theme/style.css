@@ -1,0 +1,23 @@
+/*
+Theme Name: vsa theme
+Theme URI: http://www.ucsbvsa.com
+Author: Mel
+Author URI: http://www.ucsbvsa.com
+Template: twentytwelve
+Version: 1.0.0
+*/
+
+
+@import url('../twentytwelve/style.css');
+@import url("http://www.ucsbvsa.com/blog/stylesheet.css");
+
+#footer_wrapper{
+	clear: both;
+	background-color: #7EC3FF;
+	opacity: 1;
+	z-index: 1px;
+	min-width: 1480px;
+	max-width: 100%;
+	height: 100px; 
+	
+}
